@@ -1,0 +1,47 @@
+{
+  "project": "她头顶有弹幕",
+  "proposal": "A",
+  "date": "2026-10-14",
+  "tool": "image_gen.imagegen",
+  "model_version": null,
+  "seed": null,
+  "status": "静帧定妆提案，尚未验证视频一致性",
+  "assets": [
+    {
+      "id": "W01",
+      "file": "W01_温书窈_定妆提案A.png",
+      "format": "PNG",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2040200,
+      "sha256": "ae50c014167de46f5b9353fa55088b7ba1d3b75839580f7f25da8332eea10f6f",
+      "reference_asset_ids": [],
+      "pixel_edits": false
+    },
+    {
+      "id": "S01",
+      "file": "S01_沈既白_定妆提案A.png",
+      "format": "PNG",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2053848,
+      "sha256": "8a084944725156113920ec239d96f05b719d39056a21195c4bbebfc6aaee4596",
+      "reference_asset_ids": [],
+      "pixel_edits": false
+    },
+    {
+      "id": "DUO01",
+      "file": "DUO01_双人定妆提案A.png",
+      "format": "PNG",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2109195,
+      "sha256": "0d19e3f43ff7c9d520164b49fb71b2247b2bcdb67341a75432099c9dca651456",
+      "reference_asset_ids": [
+        "W01",
+        "S01"
+      ],
+      "pixel_edits": false
+    }
+  ]
+}
