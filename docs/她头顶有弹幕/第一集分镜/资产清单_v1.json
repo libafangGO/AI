@@ -1,0 +1,87 @@
+{
+  "project": "她头顶有弹幕",
+  "episode": 1,
+  "version": "1.0",
+  "date": "2026-10-14",
+  "tool": "image_gen.imagegen",
+  "model_version": null,
+  "seed": null,
+  "status": "静帧分镜；尚未进行视频动作和配音验证",
+  "target_format": "16:9 / 1920x1080 / 25fps",
+  "budget_seconds": 75,
+  "shot_count": 24,
+  "assets": [
+    {
+      "id": "EP01_SC01",
+      "file": "EP01_SC01_婚房场景参考.png",
+      "source_file": "exec-fb641168-59bb-4994-a0f7-98620302c3e4.png",
+      "format": "PNG",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2128790,
+      "sha256": "6aa0c9453c116e6716e0ac0c6bcbcaa32c321f94366d64d7d48654c9941e7909",
+      "pixel_edits": false
+    },
+    {
+      "id": "EP01_SB01",
+      "file": "EP01_SB01_镜头01-06.png",
+      "source_file": "exec-5e0239a2-85de-4fa4-9acd-e20788c37906.png",
+      "format": "PNG",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1853597,
+      "sha256": "2a35011a54cf0f16b52c49b7f0c19dda2236f1eb50f4f0f8f002b9de7c94ca7b",
+      "pixel_edits": false
+    },
+    {
+      "id": "EP01_SB02",
+      "file": "EP01_SB02_镜头07-12.png",
+      "source_file": "exec-10a3d0f6-7e61-48e9-8732-392ae65e373a.png",
+      "format": "PNG",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1874967,
+      "sha256": "579e2182b137e401c88d27b5a02c6691cb0964ff529653801294928d468d0326",
+      "pixel_edits": false
+    },
+    {
+      "id": "EP01_SB03",
+      "file": "EP01_SB03_镜头13-18.png",
+      "source_file": "exec-a05688c8-424c-46d4-b836-86b9627431a4.png",
+      "format": "PNG",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1889444,
+      "sha256": "0ff39ce51d221daf33d197669c9f0e5abcbf81adcf77d6c72b2ec1fae309b25a",
+      "pixel_edits": false
+    },
+    {
+      "id": "EP01_SB04",
+      "file": "EP01_SB04_镜头19-24.png",
+      "source_file": "exec-40585c69-d453-46c4-8c21-e5fab254a135.png",
+      "format": "PNG",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1905905,
+      "sha256": "b19a6a549c542f79a87927479741b65dba0ad0e40870891b159e6c7173f70a05",
+      "pixel_edits": false
+    }
+  ],
+  "review": {
+    "status": "首版静帧审阅稿；待制作独立16:9关键帧",
+    "known_corrections": [
+      "拼版内画格比例与目标16:9仍有偏差，独立关键帧需重新构图",
+      "05眼神改为画面左上",
+      "16玉佩统一为01实心椭圆款",
+      "22与24床尾凳移除残留枕头",
+      "男主近景背景对齐主机位的右侧沙发方向"
+    ],
+    "document_checks": [
+      "24镜头按编号连续",
+      "镜头预算合计75秒",
+      "Word与Markdown正文一致",
+      "Word嵌入全部5张图",
+      "PNG原样复制并校验SHA256"
+    ]
+  }
+}
