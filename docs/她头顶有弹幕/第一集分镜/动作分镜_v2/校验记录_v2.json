@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-14",
+  "checks": {
+    "clip_count": 32,
+    "source_shots_covered": 24,
+    "timeline_frames_25fps": 2050,
+    "timeline_seconds": 82,
+    "source_budget_seconds": 165,
+    "unique_keyframe_states": 62,
+    "reused_start_frames": 6,
+    "middle_references": 4,
+    "thought_segments": [
+      "V04",
+      "V09",
+      "V13",
+      "V17",
+      "V22",
+      "V29"
+    ],
+    "word_clip_sections": 32,
+    "word_markdown_narrative_match": true,
+    "word_zip_valid": true,
+    "dialogue_and_thought_order_matches_v1": true,
+    "six_reuse_boundaries_valid": true,
+    "rendered_pdf_pages": 40,
+    "visual_review_pages": [
+      5,
+      24,
+      31,
+      34
+    ],
+    "new_text_files_whitespace_clean": true
+  },
+  "limits": [
+    "没有执行ComfyUI或实测显存与耗时",
+    "模型与节点的准确身份、首尾帧能力未确认",
+    "关键帧与视频尚未生成",
+    "时间为预算而非测得时长"
+  ],
+  "files": [
+    {
+      "file": "第一集_关键帧清单_v2.csv",
+      "bytes": 12427,
+      "sha256": "955dadce60c82d09676f23aa509e00f468ce7e6d5cbc4c30c127a6c7c9e41bc8"
+    },
+    {
+      "file": "第一集_动作分镜_v2.docx",
+      "bytes": 57352,
+      "sha256": "e3dc07e1c25306916812a47a05c4014ed606ff8dfc834e3310aa9fe9dc828928"
+    },
+    {
+      "file": "第一集_动作分镜_v2.json",
+      "bytes": 121243,
+      "sha256": "c5d6c45b108adbc2afffe277b15f5d6c9b0e1c2601d0bd0e1d8192a4e32a9e41"
+    },
+    {
+      "file": "第一集_动作分镜_v2.md",
+      "bytes": 47390,
+      "sha256": "baebb78f180345f103d0b2e794c08ef30d165241610b1cf93d390da52749352c"
+    },
+    {
+      "file": "第一集_视频片段表_v2.csv",
+      "bytes": 26501,
+      "sha256": "4e7c82ccbc05d4aef14741438c56ba8f84842911c8db863f4910f95077bc0662"
+    },
+    {
+      "file": "第一集_逐段生成提示词_v2.md",
+      "bytes": 47827,
+      "sha256": "448c0aaf5d7c364bfe62031090b3acb486b1843d9284399652b67391ff7fc8ff"
+    }
+  ]
+}
